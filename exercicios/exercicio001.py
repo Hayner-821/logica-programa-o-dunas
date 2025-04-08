@@ -1,10 +1,13 @@
-#Ditar as variáveis
-x=float=(input("x:"))
-y=float=(input("y:"))
-#Ditar os comparativos das variaveis
-if x==y:
-    print("x é igual a y")
-elif x>y:
-    print("x é maior que y")
-elif x<y:
-    print("x é menor que y")
+# criar variaveis
+A= 10
+B= 20
+math.isclose(A, B, rel_tol=1e-9)
+
+#lógica para variaveis
+if A==B:
+    print("A é igual a B")
+elif A>B:
+    print("A é maior que B")
+elif A<B:
+    print("A é menor que B")
+print("A é diferente de B")
